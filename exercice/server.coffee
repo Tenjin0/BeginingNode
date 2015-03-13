@@ -1,6 +1,7 @@
 http = require 'http'
 path = require 'path'
 fs = require 'fs'
+
 contentTypeMap =
 	'.js' : 'text/javascript'
 	'.css' : 'text/css'
