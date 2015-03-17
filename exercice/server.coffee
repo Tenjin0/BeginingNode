@@ -21,7 +21,7 @@ simpleHtml = '<!DOCTYPE html>
 '
 
 server = http.createServer (req,resp) ->
-	console.log 'request starting ...'
+	console.log 'request starting ...',req.url
 	# resp.write 'Hello client'
 	# resp.end
 
