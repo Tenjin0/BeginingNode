@@ -18,7 +18,7 @@
 
   server = http.createServer(function(req, resp) {
     var extension, filepath;
-    console.log('request starting ...');
+    console.log('request starting ...', req.url);
     filepath = '.' + req.url;
     if (filepath === './') {
       filepath = './index.html';
